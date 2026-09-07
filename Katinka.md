@@ -1,0 +1,1 @@
+![https://media.discordapp.net/attachments/1468559202325889067/1493234799631138868/Screenshot_20230626_174354_Discord.jpg?ex=6a9f5e87&is=6a9e0d07&hm=fa59fb3bb70d5a0f6f4732497ab3c5aff42874dafac241ed9cf88d15ca342e95&=&format=webp&width=771&height=1024](image_1.png)
