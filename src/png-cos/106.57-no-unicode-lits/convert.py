@@ -1,0 +1,34 @@
+# A converter for international currency exchange.
+USD_to_GBP = 0.76 # Today's rate, US dollars to British Pounds
+USD_to_EUR = 0.89 # Today's rate, US dollars to Euros (+ 0.03)
+USD_to_JPY = 157.53 # Today's rate, US dollars to Japanese Yen (+ 43.45)
+USD_to_INR = 63.64 # Today's rate, US dollars to Indian Rupees (+ 32.44)
+USD_to_DKK = 6.65 # Extra cureency.
+
+GBP_sign = "£" # Unicode values for non-ASCII currency
+EUR_sign = "€" # symbols.
+JPY_sign = "¥"
+INR_sign = "₹"
+DKK_sign = "kr"
+
+dollars = 1000 # The number of dollars to convert
+
+pounds = dollars * USD_to_GBP # Conversion calculations
+euros = dollars * USD_to_EUR
+yen = dollars * USD_to_JPY
+rupees = dollars * USD_to_INR
+krone = dollars * USD_to_DKK
+
+print('Today, $' + str(dollars)) # Printing the results
+print('converts to ' + GBP_sign + str(pounds))
+print('converts to ' + EUR_sign + str(euros))
+print('converts to ' + JPY_sign + str(yen))
+print('converts to ' + INR_sign + str(rupees))
+print('converts to ' + str(krone) + DKK_sign)
+
+# Today, $1000
+# converts to £760.0
+# converts to €890.0
+# converts to ¥157530.0
+# converts to ₹63640.0
+# converts to 6650.0kr
