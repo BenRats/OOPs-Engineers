@@ -80,8 +80,11 @@ public class NonFoodItem : Item, IItem {
 public class Program {
     public static void Main(string[] args) {
         var foods = new FoodItem[10];
+        string[] foodsNames = [
+            "Sushi", "Burrito", "Rice", "Sandwich", "Borger", "Chooseborger", "Apple", "Taco", "Kyllingborger", "Dinmor"
+        ];
         for (int i = 0; i < foods.Length; i++) {
-            foods[i] = new FoodItem($"Food #{i}", i * 25, new DateTime((long) i * 250000));
+            foods[i] = new FoodItem(foodsNames[i], i * 25, new DateTime((long) i * 250000));
         }
 
         foreach (FoodItem food in foods) {
